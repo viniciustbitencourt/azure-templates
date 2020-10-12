@@ -10,7 +10,7 @@
         }
       },
       "adminPublicKey":{
-        "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIuGhTYJ9OBppmqY/3z9WafuTCimu33rj7ZzonhMvyJiwuPM3sqKBi+6b6tSvJIOkZDWBj1VjW662BnxCY6Bc9+FaYIzZInQzjlLMdRkOalhF3ZRUJ99ul3pnZulr/QayecqbP+9q/uo2Dqqu2jun+RpgCqHivr9wi7pmE/XhmntVBerC0wnyKCs7bIwG71hgIyYV7hyk7oCMR47xw9uCn3J0Ez3LSu/AfPffwJFzUVqbN21dTrZ+D8/tyM6CsHHihG48UsmU/y3r1oIn/WxYDXqJkrm3Fjr/rJDJUjvVhFGaEbnrQ+vhTvvXc9mCNCtIxuLtTH7prx/EJPZ0sBdmn",
+        "defaultValue": "ssh-rsa AAAADADADsadadadadada",
         "type": "string",
         "metadata": {
           "description": "conexao via ssh"
