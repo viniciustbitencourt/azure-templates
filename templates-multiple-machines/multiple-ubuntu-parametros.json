@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "virtualMachineAdminUserName": {
+        "value": "ubuntu"
+      },
+      "virtualMachineNamePrefix": {
+        "value": "K8s-"
+      },
+      "virtualMachineCount": {
+        "value": 2
+      },
+      "virtualMachineSize": {
+        "value": "Standard_B2ms"
+      },
+      "ubuntuOSVersion": {
+        "value": "16.04-LTS"
+      },
+      "dnsPrefixForPublicIP": {
+        "value": "labk8s"
+      },
+      "location": {
+        "value": "[resourceGroup().location]"
+      },
+      "adminUsername": {
+        "value": "ubuntu"
+        },
+      "adminPublicKey": {
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIuGhTYJ9OBppmqY/3z9WafuTCimu33rj7ZzonhMvyJiwuPM3sqKBi+6b6tSvJIOkZDWBj1VjW662BnxCY6Bc9+FaYIzZInQzjlLMdRkOalhF3ZRUJ99ul3pnZulr/QayecqbP+9q/uo2Dqqu2jun+RpgCqHivr9wi7pmE/XhmntVBerC0wnyKCs7bIwG71hgIyYV7hyk7oCMR47xw9uCn3J0Ez3LSu/AfPffwJFzUVqbN21dTrZ+D8/tyM6CsHHihG48UsmU/y3r1oIn/WxYDXqJkrm3Fjr/rJDJUjvVhFGaEbnrQ+vhTvvXc9mCNCtIxuLtTH7prx/EJPZ0sBdmn"
+        },
+        "subnets": {
+            "value": [
+                {
+                    "name": "subnet01",
+                    "properties": {
+                        "addressPrefix": "10.0.32.0/24"
+                    }
+                }
+            ]
+        }
+    }
+  }
