@@ -5,6 +5,9 @@
       "virtualMachineAdminUserName": {
         "value": "ubuntu"
       },
+      "adminPublicKey": {
+        "value": "ssh-rsa AAAAB3NzaC"
+        },
       "virtualMachineNamePrefix": {
         "value": "K8s-"
       },
@@ -18,17 +21,11 @@
         "value": "16.04-LTS"
       },
       "dnsPrefixForPublicIP": {
-        "value": "labk8s"
+        "value": "labxpto"
       },
       "location": {
         "value": "[resourceGroup().location]"
       },
-      "adminUsername": {
-        "value": "ubuntu"
-        },
-      "adminPublicKey": {
-        "value": "ssh-rsa AAAAB3NzaC"
-        },
         "subnets": {
             "value": [
                 {
@@ -38,6 +35,18 @@
                     }
                 }
             ]
-        }
+        },
+      "myVNETName":{
+        "value": "LABXPTO"
+      },
+      "myVNETPrefix":{
+        "value": "10.0.32.0/16"
+      },
+      "myVNETSubnet1Prefix":{
+        "value": "10.0.42.0/24"
+      },
+      "myVNETSubnet1Name":{
+        "value": "LABsubnet"
+      }
     }
   }

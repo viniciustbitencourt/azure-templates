@@ -34,7 +34,7 @@
         "virtualNetworkName": {
             "value": "VNET1-US"
         },
-        "addressPrefixes": {
+        "addressPrefixes": {    
             "value": [
                 "10.32.0.0/16"
             ]
